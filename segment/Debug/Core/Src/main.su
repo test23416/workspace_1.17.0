@@ -1,0 +1,7 @@
+../Core/Src/main.c:63:6:set_segment_direct	16	static
+../Core/Src/main.c:73:6:display	16	static
+../Core/Src/main.c:78:6:set_digit	16	static
+../Core/Src/main.c:99:5:main	24	static
+../Core/Src/main.c:155:6:SystemClock_Config	88	static
+../Core/Src/main.c:196:13:MX_GPIO_Init	40	static
+../Core/Src/main.c:242:6:Error_Handler	4	static,ignoring_inline_asm

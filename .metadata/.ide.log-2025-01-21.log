@@ -1,0 +1,32 @@
+2025-01-22 00:02:09,323 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 536245280 Bytes (968884224)
+2025-01-22 00:02:11,058 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 567180320 Bytes (968884224)
+2025-01-22 00:02:12,076 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 655782944 Bytes (968884224)
+2025-01-22 00:02:12,528 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-01-22 00:02:12,529 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-01-22 00:02:12,530 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-01-22 00:02:12,531 [INFO] CodeGenerator:896 - code generatio: config db path: D:\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-01-22 00:02:12,627 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\MXTmpFiles\license.tmp_save
+2025-01-22 00:02:12,927 [INFO] CodeEngine:279 - Generated code: C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\MXTmpFiles\license.tmp
+2025-01-22 00:02:12,994 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\MXTmpFiles\gpio.tmp_save
+2025-01-22 00:02:13,132 [INFO] CodeEngine:279 - Generated code: C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\MXTmpFiles\gpio.tmp
+2025-01-22 00:02:13,143 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\Core\Src\stm32g4xx_it.c_save
+2025-01-22 00:02:13,344 [INFO] CodeEngine:279 - Generated code: C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\Core\Src\stm32g4xx_it.c
+2025-01-22 00:02:13,349 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\Core\Inc\stm32g4xx_it.h_save
+2025-01-22 00:02:13,416 [INFO] CodeEngine:279 - Generated code: C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\Core\Inc\stm32g4xx_it.h
+2025-01-22 00:02:13,441 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\Core\Src\stm32g4xx_hal_msp.c_save
+2025-01-22 00:02:13,538 [INFO] CodeEngine:279 - Generated code: C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\Core\Src\stm32g4xx_hal_msp.c
+2025-01-22 00:02:13,543 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\MXTmpFiles\system.tmp_save
+2025-01-22 00:02:13,602 [INFO] CodeEngine:279 - Generated code: C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\MXTmpFiles\system.tmp
+2025-01-22 00:02:13,611 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\Core\Inc\stm32g4xx_hal_conf.h_save
+2025-01-22 00:02:13,668 [INFO] CodeEngine:335 - Generated code: C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\Core\Inc\stm32g4xx_hal_conf.h
+2025-01-22 00:02:13,686 [WARN] IPConfigManager:3034 - Warning: the RefConfig RCC_CommonPeriphClockConfig is not available in your config.xml file
+2025-01-22 00:02:13,694 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\Core\Inc\main.h_save
+2025-01-22 00:02:13,783 [INFO] CodeEngine:279 - Generated code: C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\Core\Inc\main.h
+2025-01-22 00:02:13,788 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\Core\Src\main.c_save
+2025-01-22 00:02:13,877 [INFO] CodeEngine:279 - Generated code: C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\Core\Src\main.c
+2025-01-22 00:02:14,123 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 136mS.
+2025-01-22 00:02:14,126 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-01-22 00:02:14,180 [INFO] ConfigFileManager:1579 - The Die is : DIE469
+2025-01-22 00:02:14,912 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 786mS.
+2025-01-22 00:02:14,913 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-01-22 00:02:14,914 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.

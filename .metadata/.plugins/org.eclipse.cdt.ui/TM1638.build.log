@@ -1,0 +1,28 @@
+14:48:34 **** Incremental Build of configuration Debug for project TM1638 ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'tm1638_ReadKey':
+../Core/Src/main.c:192:17: warning: implicit declaration of function 'set_keyboard_row' [-Wimplicit-function-declaration]
+  192 |                 set_keyboard_row(row);
+      |                 ^~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:288:6: warning: conflicting types for 'set_keyboard_row'; have 'void(int8_t)' {aka 'void(signed char)'}
+  288 | void set_keyboard_row(int8_t which)
+      |      ^~~~~~~~~~~~~~~~
+../Core/Src/main.c:192:17: note: previous implicit declaration of 'set_keyboard_row' with type 'void(int8_t)' {aka 'void(signed char)'}
+  192 |                 set_keyboard_row(row);
+      |                 ^~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "TM1638.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lemon\STM32CubeIDE\workspace_1.17.0\TM1638\STM32G474VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TM1638.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TM1638.elf
+ 
+arm-none-eabi-size  TM1638.elf 
+arm-none-eabi-objdump -h -S TM1638.elf  > "TM1638.list"
+   text	   data	    bss	    dec	    hex	filename
+   8880	     32	   1728	  10640	   2990	TM1638.elf
+Finished building: default.size.stdout
+ 
+Finished building: TM1638.list
+ 
+
+14:48:35 Build Finished. 0 errors, 2 warnings. (took 1s.115ms)
+

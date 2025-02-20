@@ -1,0 +1,7 @@
+../Core/Src/main.c:63:6:set_segment_direct	1
+../Core/Src/main.c:73:6:display	2
+../Core/Src/main.c:78:6:set_digit	5
+../Core/Src/main.c:99:5:main	2
+../Core/Src/main.c:155:6:SystemClock_Config	3
+../Core/Src/main.c:196:13:MX_GPIO_Init	1
+../Core/Src/main.c:242:6:Error_Handler	1

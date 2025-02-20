@@ -1,0 +1,10 @@
+22:18:00 **** Incremental Build of configuration Debug for project ch06_state ****
+make -j20 all 
+arm-none-eabi-size  ch06_state.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5992	     12	   1580	   7584	   1da0	ch06_state.elf
+Finished building: default.size.stdout
+ 
+
+22:18:00 Build Finished. 0 errors, 0 warnings. (took 272ms)
+
